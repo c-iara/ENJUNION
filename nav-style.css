@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 90px 20px 0;
+    color: white;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+    width: max-content;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+} 
+
+
+.nav_links li a:hover{
+    color: #E9A1A1
+}
+.header{
+    background-color: black;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
